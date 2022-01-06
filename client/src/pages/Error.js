@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
-import img from '../assets/images/not-found.svg'
-import Wrapper from '../assets/wrappers/ErrorPage'
+import { Link } from 'react-router-dom';
+import img from '../assets/images/not-found.svg';
+import Wrapper from '../assets/wrappers/ErrorPage';
 
 const Error = () => {
   return (
@@ -12,7 +12,7 @@ const Error = () => {
         <Link to='/'>back home</Link>
       </div>
     </Wrapper>
-  )
-}
+  );
+};
 
-export default Error
+export default Error;

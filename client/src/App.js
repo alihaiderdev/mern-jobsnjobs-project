@@ -1,12 +1,12 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Register, Landing, Error, ProtectedRoute } from './pages'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Register, Landing, Error, ProtectedRoute } from './pages';
 import {
   AllJobs,
   Profile,
   SharedLayout,
   Stats,
   AddJob,
-} from './pages/dashboard'
+} from './pages/dashboard';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         <Route path='*' element={<Error />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
